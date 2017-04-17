@@ -1,0 +1,27 @@
+{
+  "name": "jmd732-homework05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-001-fall-2016/jmd732-homework05.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-001-fall-2016/jmd732-homework05/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-001-fall-2016/jmd732-homework05#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "hbs": "^4.0.1",
+    "mongoose": "^4.6.5",
+    "node-uuid": "^1.4.7"
+  }
+}

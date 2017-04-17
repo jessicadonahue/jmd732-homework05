@@ -1,0 +1,19 @@
+
+<h3>My Movies</h3>
+
+<ul>
+
+	{{#each myMovies}}
+	<li>
+
+		 {{this.title}} by {{this.director}} ({{this.year}})
+
+	</li>
+	{{/each}}
+
+</ul>
+
+<br>
+<div id="nav">
+<a href="/movies/add">Add a Movie</a> | <a href="/movies">Movies Database</a>
+</div>

@@ -1,0 +1,29 @@
+<form method="GET" action="/movies">
+
+
+	Director: <input type="text" name="director">
+	<button type="submit">Filter</button>
+
+</form>
+<br>
+
+
+<table border="1">
+<tr>
+	<td style="font-weight: bold;">Title</td>
+	<td style="font-weight: bold;">Year</td>
+	<td style="font-weight: bold;">Director</td>
+</tr>
+{{#each movies}}
+<tr>
+	<td>{{this.title}}</td>
+	<td>{{this.year}}</td>
+	<td>{{this.director}}</td>
+</tr>
+{{/each}}
+</table>
+
+<br>
+<div id="nav">
+<a href="/movies/add">Add a Movie</a> | <a href="/mymovies">My Movies</a>
+</div>
